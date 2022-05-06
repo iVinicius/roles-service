@@ -24,12 +24,12 @@ http://localhost:8080/swagger-ui/index.html#/
 ```
 
 ## Technologies Used
-Java 11 (no real preference, I wasn't planning on using any feature from newer version)
-MongoDB (makes complete sense with the the user/team domains to use a No-SQL option. Since this is domain service I would still opt for Mongo over Cassandra (free).
-WebFlux/Reactor (most resource optimization JVM framework available for Webservices and completely compatible with No-SQL and Microservices)
-Lombok (for speed of development and convenience)
-Swagger (for API inbuilt documentation and facilitation of use)
-JUnit/Mockito/Reactor-test (for testing. Just the default capabilities for Java unit testing)
+1. Java 11 - no real preference, I wasn't planning on using any feature from newer version
+2. MongoDB - makes complete sense with the the user/team domains to use a No-SQL option. Since this is domain service I would still opt for Mongo over Cassandra. DynamoDB is still faster than both but not free and quite expensive.
+3. WebFlux/Reactor - most resource optimization JVM framework available for Webservices and completely compatible with No-SQL and Microservices
+4. Lombok - for speed of development and convenience
+5. Swagger - for API inbuilt documentation and facilitation of use
+6. JUnit/Mockito/Reactor-test - for testing. Just the default capabilities for Java unit testing
 
 ## Observations
 1. I could have added Liquidbase for database change management however is less painful to just call the API (it's very easy right)
